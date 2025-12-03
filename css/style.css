@@ -640,7 +640,7 @@ main{
 }
 .banner-container {
     position: absolute;
-    bottom: 0;
+    top: 0;
     padding: 40px 20px;
     display: flex;
     gap: 12px;
@@ -651,11 +651,7 @@ main{
    
     left: 0;
     color: var(--text-white);
-    background-image: linear-gradient(
-        to top,
-        black,
-        transparent
-    );
+    
 }
 .banner-title {
     font-size: var(--larger-title);
@@ -667,7 +663,7 @@ main{
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    font-family: var(--secondary-font);
+    font-family: var(--script-font);
     font-size: var(--title-fs);
     text-align: center;
 }
